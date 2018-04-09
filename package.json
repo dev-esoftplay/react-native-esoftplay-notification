@@ -1,6 +1,6 @@
 {
   "name": "react-native-esoftplay-notification",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "esoftplay notification",
   "main": "index.js",
   "scripts": {
@@ -18,8 +18,5 @@
   "bugs": {
     "url": "https://github.com/dev-esoftplay/react-native-esoftplay-notification/issues"
   },
-  "homepage": "https://github.com/dev-esoftplay/react-native-esoftplay-notification#readme",
-  "dependencies": {
-    "react-native": "^0.55.1"
-  }
+  "homepage": "https://github.com/dev-esoftplay/react-native-esoftplay-notification#readme"
 }

@@ -1,8 +1,7 @@
-import Permissions from '../../node_modules/expo/src/Permissions.js';
+import * as Permissions  from '../../node_modules/expo/src/Permissions.js';
 import Notifications from '../../node_modules/expo/src/Notifications.js';
-import { configConsole } from '../config';
-import { AsyncStorage } from 'react-native';
-
+import { configConsole } from '../../config';
+import { AsyncStorage } from '../../node_modules/react-native/Libraries/react-native/react-native-implementation.js';
 /*
 { 
   to: // exp token
