@@ -104,7 +104,7 @@ export default class Main extends React.Component {
      "message":"string" // message to show inside app
    },
 ```
-
+#### All push format
 ```
 curl -H "Content-Type: application/json" -X POST https://exp.host/--/api/v2/push/send -d '{
   "to":"ExponentPushToken[xxxxxxxxxxxxxxxxxxxxxx]",
