@@ -71,6 +71,7 @@ export default class Main extends React.Component {
   }
   
    action(res) {
+    if (!res) return
     const { data } = res
     switch (data.action) {
       case 'route':
@@ -105,7 +106,7 @@ export default class Main extends React.Component {
 ```
 
 ```
-curl -H "Content-Type: application/json" -X POST [https://exp.host/--/api/v2/push/send](https://exp.host/--/api/v2/push/send) -d '{
+curl -H "Content-Type: application/json" -X POST https://exp.host/--/api/v2/push/send -d '{
   "to":"ExponentPushToken[xxxxxxxxxxxxxxxxxxxxxx]",
   "title":"string", // title to show in notification bar
   "body": "string", // message to show in notification bar
