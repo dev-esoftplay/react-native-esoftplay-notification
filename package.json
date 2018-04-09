@@ -1,6 +1,6 @@
 {
   "name": "react-native-esoftplay-notification",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "esoftplay notification",
   "main": "index.js",
   "scripts": {

@@ -26,7 +26,7 @@ const EsoftplayNotification = {
   listen(callback) {
     Notifications.addListener((obj) => {
       if (obj) {
-        callback(obj)
+        if (callback) callback(obj)
         if (obj.remote) {
           AsyncStorage.setItem('esoftplaynotification', JSON.stringify(obj))
         }
