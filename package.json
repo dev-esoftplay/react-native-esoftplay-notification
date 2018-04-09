@@ -1,0 +1,25 @@
+{
+  "name": "react-native-esoftplay-notification",
+  "version": "1.0.0",
+  "description": "esoftplay notification",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-esoftplay/react-native-esoftplay-notification.git"
+  },
+  "keywords": [
+    "notification"
+  ],
+  "author": "masmun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev-esoftplay/react-native-esoftplay-notification/issues"
+  },
+  "homepage": "https://github.com/dev-esoftplay/react-native-esoftplay-notification#readme",
+  "dependencies": {
+    "react-native": "^0.55.1"
+  }
+}
