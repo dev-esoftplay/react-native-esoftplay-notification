@@ -1,13 +1,13 @@
 # react-native-esoftplay-notification
-standart of esoftplay notification 
+standart module of esoftplay notification 
 
 
-## INSTALATION CLIENT SIDE
+### INSTALATION
 ```
 npm install --save react-native-esoftplay-notification
 ```
 
-## USAGE
+### USAGE
 1. Add some requirement listener at root Component - App.js
 ```
 import EsoftplayNotification from 'react-native-esoftplay-notification';
@@ -92,7 +92,7 @@ export default class Main extends React.Component {
 
 
 
-## Example send push notification
+### EXAMPLE SEND PUSH NOTIFICATION
 
 #### Default data format
 ```
@@ -104,7 +104,7 @@ export default class Main extends React.Component {
      "message":"string" // message to show inside app
    },
 ```
-#### All push format
+#### Complete push format
 ```
 curl -H "Content-Type: application/json" -X POST https://exp.host/--/api/v2/push/send -d '{
   "to":"ExponentPushToken[xxxxxxxxxxxxxxxxxxxxxx]",
@@ -121,4 +121,4 @@ curl -H "Content-Type: application/json" -X POST https://exp.host/--/api/v2/push
    ...
 }'
 ```
-for complete please check https://docs.expo.io/versions/latest/guides/push-notifications#http2-api
+for complete example please check https://docs.expo.io/versions/latest/guides/push-notifications#http2-api
