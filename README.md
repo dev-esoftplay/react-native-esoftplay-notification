@@ -98,7 +98,7 @@ export default class Main extends React.Component {
 ```
 "data":{
      "action":"string", // action name example "fetch_event","logout","route",""
-     "route_name": "string", // a routeName of react navigation
+     "route": "string", // a routeName of react navigation
      "params":"json", // object with key-value pairs to send when navigate to route_name
      "title":"string" // title to show inside app
      "message":"string" // message to show inside app
@@ -113,7 +113,7 @@ curl -H "Content-Type: application/json" -X POST https://exp.host/--/api/v2/push
   ...
   "data":{
      "action":"string", // action name example "fetch_event","logout","route",""
-     "route_name": "string", // a routeName of react navigation
+     "route": "string", // a routeName of react navigation
      "params":"json", // object with key-value pairs to send when navigate to route_name
      "title":"string" // title to show inside app
      "message":"string" // message to show inside app
